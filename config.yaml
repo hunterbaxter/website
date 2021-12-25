@@ -1,4 +1,56 @@
-baseURL: http://example.org/
-languageCode: en-us
+baseURL: http://baxterhc.github.io/
 title: Hunter Baxter
 theme: PaperMod
+author:
+  name: Hunter Baxter
+languageCode: en-us
+
+enableRobotsTXT: true
+minify:
+  # TODO: verify correct stuff here
+  disableXML: false
+  minifyOutput: true
+
+menu:
+  main:
+    - identifier: about
+      name: About
+      url: /about/
+      weight: 1
+    - identifier: portfolio
+      name: Portfolio
+      url: /portfolio/
+      weight: 2
+    - identifier: blog
+      name: Blog
+      url: /blog/
+      weight: 3
+
+params:
+  profileMode:
+    enabled: true
+    # in static
+    imageUrl: /headshot.jpg
+    title: Hunter Baxter
+    subtitle: Student and Researcher
+    buttons:
+      - name: About
+        url: about
+      - name: Portfolio
+        url: portfolio
+      - name: Blog
+        url: blog
+  socialIcons:
+    - name: github
+      url: http://github.com/baxterhc
+    - name: LinkedIn
+      url: https://www.linkedin.com/in/hunterbaxter/
+    - name: email
+      url: mailto:hunter.c.baxter@vanderbilt.edu
+    - name: rss
+      url: https://baxterhc.github.io/feed.xml
+
+outputFormats:
+  RSS:
+    mediatype: "application/rss"
+    baseName: "rss"
