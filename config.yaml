@@ -1,4 +1,4 @@
-baseURL: http://baxterhc.github.io/
+baseURL: http://baxterhc.github.io
 title: Hunter Baxter
 theme: PaperMod
 author:
@@ -48,7 +48,7 @@ params:
     - name: email
       url: mailto:hunter.c.baxter@vanderbilt.edu
     - name: rss
-      url: https://baxterhc.github.io/feed.xml
+      url: https://baxterhc.github.io/rss.xml
 
 outputFormats:
   RSS:
