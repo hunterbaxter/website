@@ -15,6 +15,5 @@ The result of this project was a *19.33% performance increase* over the model us
 
 ![improvement](/vumc.png)
 
-Due to IP restrictions, unfortunately, cannot attach source code.
+Due to IP restrictions, unfortunately, I cannot attach source code.
 However, if interested in more information, please contact me at hunter.c.baxter@vanderbilt.edu
-
