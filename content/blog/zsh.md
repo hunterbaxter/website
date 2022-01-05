@@ -4,7 +4,7 @@ summary: quality of life changes to make the command line friendly
 date: 2021-12-27T00:00:00-06:00
 showToc: false
 ShowReadingTime: true
-tags: [my configurations, tech, linux]
+tags: [linux,tech]
 draft: false
 ---
 
