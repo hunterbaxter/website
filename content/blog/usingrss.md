@@ -11,7 +11,7 @@ ShowReadingTime: true
 [RSS = Really Simple Syndication](https://en.wikipedia.org/wiki/RSS).
 RSS essentially creates a custom newsfeed of content from subscribed sites in a platform-agnostic way.
 So, instead of checking every site one wants updates from, one checks a single place.
-Only viewing an RSS feed reader can drastically reduce the time one spends online.
+Only viewing an RSS feed reader can drastically reduce the amount of time one spends online.
 One might ask, "Isn't an RSS feed just a social media feed?"
 Yes, it is theoretically the same.
 However, you have pure control with RSS, unlike modern social media providers.
@@ -27,7 +27,7 @@ Feedly, Inoreader, and Newsblur all have Web, iOS, and Android interfaces.
 ## Terminal User Interface (TUI) Readers
 I personally like TUIs (terminal user interfaces), so I use [newsboat](https://newsboat.org/) for my RSS reader.
 Using newsboat is very simple, and one can install it via their package manager (dnf for fedora), or from source ([instructions](https://github.com/newsboat/newsboat)).
-To configure newsboat, check out the [arch linux user wiki](https://wiki.archlinux.org/title/Newsboat). Also, My configurations can be found in my [.dotfiles repository](https://github.com/baxterhc/.dotfiles/blob/master/.config/newsboat/config).
+To configure newsboat, check out the [arch linux user wiki](https://wiki.archlinux.org/title/Newsboat). Also, my configurations can be found in my [.dotfiles repository](https://github.com/baxterhc/.dotfiles/blob/master/.config/newsboat/config).
 All one has to do is put my URL in their newsboat url file (mine is located at '$HOME/.config/newsboat/urls' like below:
 ``` sh
 https://baxterhc.github.io/rss.xml
